@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+#titleContainer {
+    width: 100%;
+    background-color: lightgray;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    z-index: 10;
+}
+
+#closeButton {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    cursor: pointer;
+    border-radius: 25px;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(237, 108, 97);
+    text-align: center;
+}
+
+#closeButton:hover {
+    background-color: red;
+}
+
+button:focus {
+    outline: 0;
+}
+
+h1 {
+    padding-left: 25px;
+    padding-right: 22px;
+    text-align: center;
+    margin: 0px;
+    text-overflow: ellipsis;
+    /* Required for text-overflow to do anything */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+span {
+    font-weight: bold;
+}
+
+p {
+    margin: 5px;
+    transition : 1s;
+}
+
+p.temp.link {
+    color: #0000EE;
+}
+
+p.temp.p {
+    margin-left: 12px;
+    font-size: 16px;
+}
+
+p.temp.link:hover {
+    color: #0000EE;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#dataContainer {
+    position: absolute;
+    top: 50px;
+    z-index: 5;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}

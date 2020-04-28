@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "circle-pack"
+    }
+  },
+  "defaultProject": "circle-pack",
+  "cli": {
+    "analytics": false
+  }
 }
